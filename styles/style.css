@@ -89,23 +89,23 @@ a {
 
 #social--links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     column-gap: 1em;
     flex-wrap: wrap;
 }
 
 #social--links a {
-    font-size: 1em;
-    padding: 5px;
+    font-size: 0.85em;
+    padding-right: 3px;
 }
 
 #social--links a:hover {
     color: #fff;
     background-color: var(--mainLinkColor);
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
-#qualifications--list {
+#Education--list {
     list-style: none;
 }
 
@@ -117,10 +117,12 @@ a {
     font-size: 0.9em;
 }
 
-.card--techstack {
+.card--skills {
     border: 1px solid var(--mainBorderColor);
     padding:0.5em 1em;
     border-radius: 5px;
+    width: 302px;
+    align-items: center;
 }
 
 .card--work-history {
